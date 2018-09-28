@@ -26,3 +26,18 @@ nav ul{
   display: flex;
   list-style: none;
 }
+
+/* MAIN BANNER */
+
+.main-banner{
+  background-color: #DCDCDC;
+}
+
+.img-container-large{
+  width: 60%;
+  padding: 32px 24px;
+}
+
+img{
+  width: 100%;
+}
