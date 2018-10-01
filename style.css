@@ -55,13 +55,7 @@ img{
   display: flex;
   flex-direction: column;
   justify-content: center;
-  margin-left: 24px;
   width: 30%;
-}
-
-.headlines{
-  font-size: 45px;
-  margin-bottom: 32px;
 }
 
 .main-banner p{
@@ -80,7 +74,14 @@ img{
   font-size: 20px
 }
 
+.headlines{
+  font-size: 45px;
+  margin-bottom: 32px;
+}
+
 /* INFO BANNER */
+
+  /* ARTICLE */
 
 .article{
   display: flex;
@@ -102,4 +103,22 @@ img{
 
 .quote .author{
   font-weight: bold;
+}
+
+  /* INFORMATION TILES */
+
+.information-tile{
+  display: flex;
+}
+
+.information-img{
+  width: 35%;
+}
+
+.information img{
+  height: auto;
+}
+
+.information-text{
+  width: 65%;
 }
