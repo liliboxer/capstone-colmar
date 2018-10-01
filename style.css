@@ -52,5 +52,30 @@ img{
 }
 
 .main-banner-text-container{
-  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 24px;
+  width: 30%;
+}
+
+.main-banner h2{
+  font-size: 48px;
+  margin-bottom: 20px;
+}
+
+.main-banner p{
+  font-size: 28px;
+}
+
+.button{
+  background-color: #696969;
+  margin-top: 20px;
+}
+
+.button p{
+  color: white;
+  text-align: center;
+  padding: 8px;
+  font-size: 20px
 }
