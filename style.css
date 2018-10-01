@@ -11,26 +11,35 @@ header{
   display: flex;
   justify-content: space-between;
   align-items: center;
+  height: 64px;
 }
 
 h1{
   font-weight: normal;
+  line-height: 32px;
 }
 
 .logo{
   display: flex;
   align-items: center;
+  margin-left: 24px;
 }
 
 nav ul{
   display: flex;
   list-style: none;
+  margin-right: 24px;
+}
+
+nav ul li{
+  margin: auto 8px;
 }
 
 /* MAIN BANNER */
 
 .main-banner{
   background-color: #DCDCDC;
+  display: flex;
 }
 
 .img-container-large{
@@ -40,4 +49,8 @@ nav ul{
 
 img{
   width: 100%;
+}
+
+.main-banner-text-container{
+  align-items: center;
 }
