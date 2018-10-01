@@ -59,9 +59,9 @@ img{
   width: 30%;
 }
 
-.main-banner h2{
-  font-size: 48px;
-  margin-bottom: 20px;
+.headlines{
+  font-size: 45px;
+  margin-bottom: 32px;
 }
 
 .main-banner p{
@@ -70,7 +70,7 @@ img{
 
 .button{
   background-color: #696969;
-  margin-top: 20px;
+  margin-top: 32px;
 }
 
 .button p{
@@ -82,4 +82,24 @@ img{
 
 /* INFO BANNER */
 
-.article-txt-contaainer
+.article{
+  display: flex;
+  flex-direction: column;
+}
+
+.article-text-container{
+  width: 60%;
+  margin: 0 24px 32px 24px;
+}
+
+.article-text-container h2{
+  margin: 0 auto 24px auto;
+}
+
+.quote p{
+  margin-bottom: 30px;
+}
+
+.quote .author{
+  font-weight: bold;
+}
