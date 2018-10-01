@@ -81,6 +81,10 @@ img{
 
 /* INFO BANNER */
 
+.info-banner{
+  display: flex;
+}
+
   /* ARTICLE */
 
 .article{
@@ -106,6 +110,11 @@ img{
 }
 
   /* INFORMATION TILES */
+
+.information{
+  display: flex;
+  flex-direction: column;
+}
 
 .information-tile{
   display: flex;
