@@ -42,8 +42,11 @@ nav ul li{
   display: flex;
 }
 
-.img-container-large{
+.img-container{
   width: 60%;
+}
+
+.img-container-large{
   padding: 32px 24px;
 }
 
@@ -87,13 +90,17 @@ img{
 
   /* ARTICLE */
 
+.article-container{
+  width: 60%;
+}
+
 .article{
   display: flex;
   flex-direction: column;
+  width: 100%;
 }
 
 .article-text-container{
-  width: 60%;
   margin: 0 24px 32px 24px;
 }
 
@@ -114,10 +121,14 @@ img{
 .information{
   display: flex;
   flex-direction: column;
+  width: 30%;
+  justify-content: space-between;
+  margin: 32px auto;
 }
 
 .information-tile{
   display: flex;
+  border: 1px solid grey;
 }
 
 .information-img{
