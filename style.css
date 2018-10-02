@@ -121,9 +121,10 @@ img{
 .information{
   display: flex;
   flex-direction: column;
-  width: 30%;
+  width: 40%;
+  margin-top: 32px;
+  padding-bottom: 62px;
   justify-content: space-between;
-  margin: 32px auto;
 }
 
 .information-tile{
