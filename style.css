@@ -129,7 +129,8 @@ img{
 
 .information-tile{
   display: flex;
-  border: 1px solid grey;
+  border: 1px solid #DCDCDCDC;
+  padding: 16px;
 }
 
 .information-img{
@@ -142,4 +143,13 @@ img{
 
 .information-text{
   width: 65%;
+  padding-left: 16px;
+}
+
+.information-read-more{
+  color: #87CEEB
+}
+
+.highlight{
+  background-color: #DCDCDC
 }
