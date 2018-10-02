@@ -198,3 +198,7 @@ img{
 }
 
 /* THESIS BANNER */
+
+.thesis-banner{
+  display: flex;
+}
