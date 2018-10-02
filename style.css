@@ -78,7 +78,7 @@ img{
 }
 
 .headlines{
-  font-size: 45px;
+  font-size: 30px;
   margin-bottom: 32px;
 }
 
@@ -124,7 +124,6 @@ img{
   width: 40%;
   margin-top: 32px;
   padding-bottom: 62px;
-  justify-content: space-between;
 }
 
 .information-tile{
@@ -138,7 +137,7 @@ img{
 }
 
 .information img{
-  height: auto;
+  height: 100%;
 }
 
 .information-text{
@@ -201,4 +200,27 @@ img{
 
 .thesis-banner{
   display: flex;
+}
+
+video{
+  width: 100%
+}
+
+/* FOOTER */
+
+footer{
+  border-top: 1px solid #DCDCDC;
+  display: flex;
+  justify-content: space-between;
+  padding: 16px 24px 30px 24px;
+  font-size: 12px;
+
+}
+
+.conditions{
+  display: flex;
+}
+
+.conditions p{
+  padding: 5px;
 }
