@@ -122,6 +122,24 @@ img{
   .img-container-large{
     padding: 0;
   }
+
+  .headlines{
+    margin: 32px 16px;
+  }
+
+  .tagline{
+    margin: 0 16px 24px 16px;
+  }
+
+  .button{
+    margin: 0 16px 32px 16px;
+  }
+
+  .button p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
 }
 
 /* INFO BANNER */
