@@ -327,6 +327,11 @@ img{
 
 .thesis-banner{
   display: flex;
+  flex-direction: column;
+}
+
+.thesis-banner-body{
+  display: flex;
 }
 
 video{
