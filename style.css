@@ -106,6 +106,24 @@ img{
   margin-bottom: 32px;
 }
 
+@media only screen and (max-width: 470px){
+  .main-banner{
+    flex-direction: column;
+  }
+
+  .img-container{
+    width: 100%;
+  }
+
+  .main-banner-text-container{
+    width: 100%;
+  }
+
+  .img-container-large{
+    padding: 0;
+  }
+}
+
 /* INFO BANNER */
 
 .info-banner{
