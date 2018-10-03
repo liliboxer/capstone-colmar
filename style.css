@@ -330,9 +330,17 @@ img{
   flex-direction: column;
 }
 
+.thesis-banner h2{
+  text-align: center;
+  padding-top: 32px;
+}
+
 .thesis-banner-body{
   display: flex;
+  margin: 0 auto;
 }
+
+
 
 video{
   width: 100%
