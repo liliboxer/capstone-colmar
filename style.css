@@ -148,6 +148,17 @@ img{
   display: flex;
 }
 
+@media only screen and (max-width: 470px){
+  .article-container{
+    display: none;
+  }
+
+  .information{
+    display: none;
+  }
+
+}
+
   /* ARTICLE */
 
 .article-container{
@@ -255,6 +266,8 @@ img{
 .text-wrapper{
   padding: 0 16px 0 16px;
 }
+
+
 
 /* THESIS BANNER */
 
