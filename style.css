@@ -257,6 +257,10 @@ img{
   text-align: center;
 }
 
+.courses-mobile{
+  display: none;
+}
+
 .courses-container{
   padding: 0 72px 32px 72px;
   display: flex;
@@ -289,7 +293,35 @@ img{
   padding: 0 16px 0 16px;
 }
 
+@media only screen and (max-width: 470px){
 
+  .courses-container{
+    display: none;
+  }
+
+  .course{
+    display: none;
+  }
+
+  .courses-mobile{
+    display: flex;
+    flex-direction: column;
+  }
+
+  ul{
+    list-style: none;
+    padding-left: 0;
+  }
+
+  li{
+    background-color: #696969;
+    padding: 16px 16px 24px 16px;
+    margin: 8px 16px;
+    text-align: center;
+  }
+
+
+}
 
 /* THESIS BANNER */
 
@@ -300,6 +332,10 @@ img{
 video{
   width: 100%
 }
+
+@media only screen and (min-width: 470px){
+
+
 
 /* FOOTER */
 
