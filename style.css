@@ -230,6 +230,7 @@ img{
   .information{
     width: 100%;
     margin: 0 auto;
+    padding-bottom: 0;
   }
 
   .information-tile{
@@ -311,6 +312,10 @@ img{
   .courses-mobile{
     display: flex;
     flex-direction: column;
+  }
+
+  .courses-banner .headlines{
+    margin-top: 0;
   }
 
   ul{
