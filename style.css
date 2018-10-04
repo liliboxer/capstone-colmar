@@ -301,6 +301,10 @@ img{
 
 @media only screen and (max-width: 470px){
 
+  .courses-banner{
+    background-color: white;
+  }
+
   .courses-container{
     display: none;
   }
@@ -356,6 +360,9 @@ video{
 
 @media only screen and (min-width: 470px){
 
+  .thesis-banner{
+    background-color: #DCDCDC;
+  }
 
   .article-text-container{
     display: none;
@@ -365,6 +372,17 @@ video{
     display: block;
   }
 
+  .thesis-banner h2{
+    padding-top: 0;
+  }
+
+  .thesis-banner .information{
+    display: none;
+  }
+
+  .thesis-banner .article-container{
+    width: 100%;
+  }
 
 }
 
