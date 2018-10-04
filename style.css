@@ -344,27 +344,32 @@ img{
   flex-direction: column;
 }
 
+.thesis-banner-body{
+  display: flex;
+}
+
 .thesis-banner-title h2{
   text-align: center;
   padding-top: 32px;
 }
 
-.thesis-banner-body{
+.thesis-banner .information{
   display: flex;
-  margin: 0 auto;
 }
+
 
 video{
   width: 100%
 }
 
+/*
 @media only screen and (min-width: 470px){
 
   .thesis-banner{
     background-color: #DCDCDC;
   }
 
-  .article-text-container{
+  .thesis-banner .article-text-container{
     display: none;
   }
 
