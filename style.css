@@ -353,21 +353,29 @@ img{
   display: flex;
 }
 
-.thesis-banner .article-container{
-  width: 60%;
-}
-
-.thesis-banner .information{
-  display: flex;
-}
 
 video{
   width: 100%
 }
 
 
-@media only screen and (min-width: 470px){
+@media only screen and (max-width: 470px){
 
+  .thesis-banner-title .headlines{
+    padding-top: 0;
+  }
+
+  .thesis-banner .information{
+    display: none;
+  }
+
+  .thesis-banner .article-container{
+    width: 100%;
+  }
+
+  .thesis-banner .article-text-container{
+    display: none;
+  }
 
 }
 
