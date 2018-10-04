@@ -313,7 +313,7 @@ img{
     padding-left: 0;
   }
 
-  li{
+  .courses-mobile li{
     background-color: #696969;
     padding: 16px 16px 24px 16px;
     margin: 8px 16px;
