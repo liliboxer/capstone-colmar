@@ -340,15 +340,31 @@ img{
   margin: 0 auto;
 }
 
-
-
 video{
   width: 100%
 }
 
 @media only screen and (min-width: 470px){
 
+  .article-container{
+    display: block;
+    width: 100%;
+    margin-bottom: 24px;
+  }
 
+  .article-text-container{
+    display: none;
+  }
+
+  .thesis-banner .article .img-container-large{
+    display: block;
+  }
+
+  .information{
+    display: none;
+  }
+
+}
 
 /* FOOTER */
 
@@ -358,7 +374,6 @@ footer{
   justify-content: space-between;
   padding: 16px 24px 30px 24px;
   font-size: 12px;
-
 }
 
 .conditions{
@@ -367,4 +382,14 @@ footer{
 
 .conditions p{
   padding: 5px;
+}
+
+@media only screen and (max-width: 470px){
+  footer{
+    padding: 16px 24px;
+  }
+
+  .conditions{
+    display: none;
+  }
 }
