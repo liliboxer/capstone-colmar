@@ -344,50 +344,30 @@ img{
   flex-direction: column;
 }
 
+.thesis-banner-title h2{
+  text-align: center;
+  padding-top: 32px;
+}
+
 .thesis-banner-body{
   display: flex;
 }
 
-.thesis-banner-title h2{
-  text-align: center;
-  padding-top: 32px;
+.thesis-banner .article-container{
+  width: 60%;
 }
 
 .thesis-banner .information{
   display: flex;
 }
 
-
 video{
   width: 100%
 }
 
-/*
+
 @media only screen and (min-width: 470px){
 
-  .thesis-banner{
-    background-color: #DCDCDC;
-  }
-
-  .thesis-banner .article-text-container{
-    display: none;
-  }
-
-  .thesis-banner .article .img-container-large{
-    display: block;
-  }
-
-  .thesis-banner h2{
-    padding-top: 0;
-  }
-
-  .thesis-banner .information{
-    display: none;
-  }
-
-  .thesis-banner .article-container{
-    width: 100%;
-  }
 
 }
 
